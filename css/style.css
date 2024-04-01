@@ -57,7 +57,6 @@ nav {
 
 }
 
-/////
 /* icon menu */
 .icon-menu {
     text-align: center;
@@ -165,7 +164,7 @@ ul li a {
     height: 610px;
 
     /* codes new  */
-    background: url(/images/Boxing-CS3-Banner.jpg);
+    background: url(../images/Boxing-CS3-Banner.jpg);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: contain;
