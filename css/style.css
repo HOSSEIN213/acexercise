@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: auto;
+}
+
+.root {
+    width: 240px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.root {
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    width: 15 rem;
+    height: 5rem;
+}
+
+.logo-1 {
+    margin: 5px;
+    width: 15rem;
+    height: 69px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-1 img {
+    align-items: center;
+    width: 10rem;
+    height: 50px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/////
+/* icon menu */
+.icon-menu {
+    text-align: center;
+    font-weight: 500;
+}
+
+.main-menu {
+    display: flex;
+    margin-left: 0rem;
+    height: 75px;
+}
+
+ul {
+
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+ul li {
+
+    margin: 25px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+a {
+    text-align: left;
+
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+body {
+    margin: 30px auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-type {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.main-logo {}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+#meun #main {
+    /* border: 2px solid #000; */
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+/* ul li a {
+    float: left;
+  } */
+#meun #main ul li {
+    display: block;
+}
+
+#meun #main ul li a {
+    /* display: inline-block ;  */
+    width: 100%;
+    height: 25px;
+    background-color: #fff;
+    color: #5a5a5a;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    display: inline-flex;
+    margin: 0px 15px;
+    padding-left: 40px;
+}
+
+ul li a {
+    margin: 10px;
+}
+
+#meun img {
+    margin-left: 18.5%;
+}
+
+#iog img {
+    display: flex;
+    width: 50%;
+}
+
+#header {
+    /* border: 2px solid #000; */
+    width: 100%;
+    height: 610px;
+
+    /* codes new  */
+    background: url(/images/Boxing-CS3-Banner.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#content {
+    background-color: #abacac;
+    position: relative;
+    width: 55%;
+    height: 610px;
+}
+
+.content-cls {
+    padding: 35px;
+    margin-left: 35%;
+    justify-content: left;
+}
+
+.content-cls h4 {
+    /* code new */
+    white-space: normal;
+    letter-spacing: 5px;
+
+    color: #fff;
+    font-size: 12.5px;
+}
+
+#footer {
+    /* border: 2px solid #000; */
+    width: 99%;
+    height: 200px;
+    margin: 2px auto;
+}
+
+.size-big,
+p,
+h4,
+b {
+    color: #fff;
+    word-spacing: 3px;
+}
+
+.size {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.Property1 {
+    margin: 10% auto;
+}
+
+.Property2 {
+    margin: 2% auto;
+}
+
+.Property3 {
+    margin: 2% auto;
+}
+
+.Property3 {
+    margin: 2% auto;
+}
+
+button {
+    border: rgb(1, 201, 156, 0.8) solid 1px;
+    background-color: rgb(1, 201, 156, 0.8);
+    color: #fff;
+    margin: 5px auto;
+    padding: 20px;
+}
+
+button:hover {
+    background-color: #000;
+    border: #000;
+}
+
+.Buy {
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(1, 201, 156, 0.8);
+}
+
+/* 
+.Company-img {}
+
+.Company-img img {
+    width: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 80px 0;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.Company {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+img {
+    width: 10%;
+    height: auto;
+    margin: 1%;
+}
+
+.Company img {
+    margin: 10px;
+    width: auto;
+    height: 63%;
+}
+#footer,.Company,.Company-img,p{
+    color: #000;
+} 
+#footer,Company{
+    margin: 10px;
+
+} */
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    height: 20%;
+    margin-top: 92px;
+
+
+}
+
+.footerimg {
+    display: flex;
+    width: 70%;
+    height: auto;
+    align-items: center;
+    position: relative;
+    margin: 5px;
+
+
+
+
+
+
+}
+
+.Company-img {
+    width: 230px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 7%;
+}
+
+.Company-img,img {
+    align-items: center;
+    width: 50px;
+    height: 75px;
+    display: flex;
+    
+
+}
+
+.Company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+.Company-img {
+
+}
