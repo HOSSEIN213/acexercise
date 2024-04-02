@@ -1,46 +1,19 @@
-.split-view {
-    border: 1px solid #000;
+.Mainpage {
+    border: solid #000 1px;
     width: 50%;
     height: 900px;
-
-
 }
 
-.split-view__item-split-view__secondary {
-    border: 1px solid #000;
-    width: 856px;
-    height: 841px;
-
+.logopart {
+    border: solid #000 1px;
+    width: 70%;
+    height: 95%;
+    margin: 3% 0 0 auto;
 }
 
-.split-view__content-split-view__secondary-content {
-    border: 1px solid #000;
-    width: 556px;
-    height: 608px;
-    margin: 0 298px auto;
-
-}
-
-.split-view__secondary-inner {
-    border: 1px solid #000;
-    width: 100%;
-    height: 500px;
-    font-size: 26px;
-
-
-
-}
-
-img {
-    width: 40%;
-    height: auto;
-}
-
-.img-big {
-    width: 455px;
-    height: 255;
-}
-.right{
-    float:right;
-    margin: 0 0 12px auto;
+.information{
+    border: solid #000 1px;
+    width: 70%;
+    height: 95%;
+    /* margin: 0% 0 0 auto; */
 }
