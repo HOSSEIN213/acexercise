@@ -1,7 +1,24 @@
+.headerlogo {
+    
+    width: 100%;
+    height: 120px;
+    box-shadow: rgba(0, 0, 0, 0.18) 1.95px 1.95px 2.6px;
+}
+
+img {
+    width: auto;
+    height: 87px;
+    margin: 10px 6px 0px 23px;
+}
+
 .Mainpage {
     border: solid #000 1px;
-    width: 50%;
+    width: 54%;
     height: 900px;
+} 
+p{
+   font-size: 160%;
+   font-weight: 600;
 }
 
 .logopart {
@@ -15,5 +32,5 @@
     border: solid #000 1px;
     width: 70%;
     height: 95%;
-    /* margin: 0% 0 0 auto; */
-}
+    
+} /* */
